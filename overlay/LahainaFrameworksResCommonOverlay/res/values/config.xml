@@ -207,4 +207,8 @@
 
      <!-- Determines whether the shell features all run on another thread. -->
      <bool name="config_enableShellMainThread">true</bool>
+
+     <!-- Build fingerprint from stock ROM -->
+    <string name="config_stockFingerprint" translatable="false">Xiaomi/renoir/renoir:13/RKQ1.211001.001/V14.0.9.0.TKICNXM:user/release-keys</string>
+
 </resources>
