@@ -197,8 +197,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
+# Livedisplay
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/livedisplay/privapp-permissions-lineagehw.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-lineagehw.xml
+
 ifneq ("$(wildcard hardware/lineage/livedisplay)", "")
-# LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm \
     vendor.lineage.livedisplay@2.1-service.xiaomi_sm8350
