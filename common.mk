@@ -183,7 +183,7 @@ PRODUCT_COPY_FILES += \
 
 # IFAA manager
 PRODUCT_PACKAGES += \
-     IFAAService
+    IFAAService
 
 # IR
 PRODUCT_PACKAGES += \
