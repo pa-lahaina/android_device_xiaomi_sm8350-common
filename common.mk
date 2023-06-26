@@ -281,6 +281,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     overlay \
     telephony \
     usb \
+    wfd \
     perf
 
 # Recovery
@@ -384,8 +385,4 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libnl \
     libwfdaac_vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
