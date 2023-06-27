@@ -92,15 +92,6 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 TARGET_KERNEL_CLANG_VERSION := hana
 
-# LiveDisplay
-ifneq ("$(wildcard hardware/lineage/livedisplay)", "")
-SOONG_CONFIG_NAMESPACES += livedisplay
-SOONG_CONFIG_livedisplay += enabled
-SOONG_CONFIG_livedisplay_enabled := true
-DEVICE_MANIFEST_FILE += \
-    $(COMMON_PATH)/configs/hidl/manifest_lineage.xml
-endif
-
 # NFC
 TARGET_USES_NQ_NFC := true
 
