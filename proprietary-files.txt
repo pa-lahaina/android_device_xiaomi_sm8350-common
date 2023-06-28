@@ -10,12 +10,16 @@ vendor/lib64/libadsprpc.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
 vendor/lib/soundfx/libmisoundfx.so
+vendor/lib/soundfx/libqcompostprocbundle.so
+vendor/lib/soundfx/libqcomvisualizer.so
+vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libmisoundfx.so
 
 # Audio HAL
 vendor/lib/hw/audio.primary.lahaina.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libadm.so
+vendor/lib/libaudioalsa.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudiocloudctrl.so
 vendor/lib/libaudioconfigstore.so
@@ -23,6 +27,7 @@ vendor/lib/libaudioparsers.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libbatterylistener.so
 vendor/lib/libcomprcapture.so
+vendor/lib/libdrc.so
 vendor/lib/libexthwplugin.so
 vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
@@ -33,6 +38,7 @@ vendor/lib/libresampler.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libspkrprot.so
 vendor/lib/libssrec.so
+vendor/lib/libsurround_3mic_proc.so
 vendor/lib/libvideoNS.so
 vendor/lib/vndk/libxlog.so
 
@@ -612,6 +618,10 @@ vendor/lib64/qcrilMarshal.so
 vendor/lib64/qcrild_libqcrilnrutils.so
 vendor/lib64/qtiril-utils.so
 vendor/lib64/qtiwakelock.so
+vendor/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so
+vendor/lib64/vendor.qti.hardware.embmssl@1.0.so
+vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so
+vendor/lib64/vendor.qti.hardware.embmssl@1.1.so
 vendor/lib64/vendor.qti.hardware.data.connection@1.0.so
 vendor/lib64/vendor.qti.hardware.data.connection@1.1.so
 vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so
