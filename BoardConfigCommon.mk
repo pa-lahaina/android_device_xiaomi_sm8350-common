@@ -92,6 +92,10 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 TARGET_KERNEL_CLANG_VERSION := hana
 
+SOONG_CONFIG_NAMESPACES += ufsbsg
+SOONG_CONFIG_ufsbsg += ufsframework
+SOONG_CONFIG_ufsbsg_ufsframework += non_ufs
+
 # NFC
 TARGET_USES_NQ_NFC := true
 
