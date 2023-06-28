@@ -230,10 +230,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/yupik/media_codecs_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_yupik_v1.xml \
     $(LOCAL_PATH)/configs/media/yupik/media_profiles_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_yupik_v1.xml
 
-# Mlipay
-PRODUCT_PACKAGES += \
-    vendor.xiaomi.hardware.mlipay@1.1.vendor
-
 # Network
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.ipsec_tunnels.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.xml
