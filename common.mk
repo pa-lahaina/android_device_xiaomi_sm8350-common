@@ -215,16 +215,13 @@ PRODUCT_PACKAGES += \
 # Neural Network
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
-
-# Overlays
-PRODUCT_ENFORCE_RRO_TARGETS := *
-
+# Overlay
 PRODUCT_PACKAGES += \
-    LahainaCarrierConfigResCommon \
-    LahainaFrameworksResCommon \
-    LahainaSettingsResCommon \
-    LahainaSystemUIResCommon \
-    LahainaWifiResCommon
+    LahainaCarrierConfigResCommonOverlay \
+    LahainaFrameworksResCommonOverlay \
+    LahainaSettingsResCommonOverlay \
+    LahainaSystemUIResCommonOverlay \
+    LahainaWifiResCommonOverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
