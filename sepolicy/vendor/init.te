@@ -1,4 +1,5 @@
 allow init adsprpcd_file:file mounton;
 
-allow vendor_qti_init_shell sysfs:file { write };
 allow init vendor_sysfs_graphics:file mounton;
+
+allow init vendor_sysfs_scsi_host:file rw_file_perms;
